@@ -13,7 +13,7 @@ html {
 } /*16px*/
 
 body {
-  background-color: rgb(128, 123, 112);
+  background-color: rgb(51, 51, 51);
 
   font-family: "Playfair", serif;
   font-weight: 400;
@@ -378,7 +378,7 @@ article > p {
 
 footer {
   background-color: rgb(51, 51, 51);
-  height: 100vh;
+  height: 80vh;
   color: white;
   padding-block: 3rem;
   padding-inline: 7%;
@@ -389,7 +389,7 @@ footer > nav > ul {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
-  width: 50vw;
+  width: 55vw;
   margin-inline: auto;
   column-gap: 3rem;
   row-gap: 1rem;
