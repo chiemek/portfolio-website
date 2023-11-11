@@ -1,0 +1,425 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* typography */
+@import url("https://fonts.googleapis.com/css?family=Playfair:400|Poppins:400");
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background-color: rgb(128, 123, 112);
+
+  font-family: "Playfair", serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+/* css styling */
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2rem;
+  padding-inline: 5rem;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+header > .logo {
+  font-weight: 800;
+  font-family: "Playfair", serif;
+}
+
+span {
+  color: yellow;
+}
+
+header nav > ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+nav ul a:hover {
+  color: rgb(255, 170, 0);
+  text-decoration: underline;
+}
+
+nav > ul > ol {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+main {
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  padding-top: 5rem;
+  height: 100vh;
+  gap: 13rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+main .firstPage {
+  width: 20%;
+  /* border: 1px solid; */
+  padding-inline: 5%;
+  padding-top: 12%;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+.firstPage h1 {
+  font-size: 2rem;
+  line-height: normal;
+}
+
+.firstPage hr {
+  color: rgb(255, 170, 0);
+  width: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+main img {
+  width: 25%;
+  height: 70vh;
+  margin-top: auto;
+}
+
+.firstPage .contact {
+  border: 1px solid rgb(255, 170, 0);
+  width: 9rem;
+  padding: 0.5rem;
+  color: rgb(255, 170, 0);
+  font-size: 12px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+main .firstpage2 {
+  padding-top: 8%;
+}
+
+.firstpage2 h3 {
+  color: rgb(255, 170, 0);
+  font-size: 1rem;
+}
+
+.firstpage2 h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.firstpage2 p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.firstpage2 .learnMore {
+  color: rgb(255, 170, 0);
+}
+
+.firstpage2 .learnMore > div {
+  color: white;
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+section {
+  height: 100vh;
+  background-color: rgb(76, 76, 76);
+  color: white;
+  padding-block: 1%;
+  padding-inline: 7%;
+}
+
+section h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 170, 0);
+  margin-bottom: 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+section > p {
+  text-align: center;
+  width: 30%;
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+
+section > .box {
+  display: flex;
+  justify-content: space-between;
+  height: 13rem;
+}
+
+section > .box > div {
+  height: 100%;
+  width: 22%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section > .box .fa-pen-nib,
+.fa-magnifying-glass,
+.fa-chart-simple {
+  font-size: 2rem;
+  margin-left: 45%;
+}
+
+section .fa-chevron-left {
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+section .fa-chevron-right {
+  font-size: 2rem;
+}
+
+div .page2 p {
+  font-size: 2rem;
+}
+
+section > .last {
+  display: flex;
+  column-gap: 20%;
+  padding-left: 5rem;
+}
+
+section > .last > .under {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+  margin-bottom: 00;
+}
+
+.last > .under p:first-child {
+  color: rgb(255, 170, 0);
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+article {
+  background-color: rgb(51, 51, 51);
+  height: 100vh;
+  color: white;
+  padding-block: 3rem;
+  padding-inline: 7%;
+}
+
+article > h3 {
+  color: rgb(255, 170, 0);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+article > h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+article > nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+article > nav > ul a:hover {
+  color: rgb(255, 170, 0);
+  text-decoration: underline;
+}
+
+article > .image-container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: repeat(2, 180px);
+  gap: 10px;
+  height: 60%;
+  width: 100%;
+  margin-inline: auto;
+}
+
+article > .image-container .secondImg {
+  grid-row: 1 / 3;
+  grid-column: 2 /3;
+}
+
+article > .image-container .thirdImg {
+  grid-row: 1 / 3;
+  grid-column: 3/-1;
+}
+
+.beforeFoot {
+  background-color: rgb(76, 76, 76);
+  height: 100vh;
+  color: white;
+  padding-block: 3rem;
+  padding-inline: 7%;
+}
+
+.beforeFoot > h3,
+footer > h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 170, 0);
+  margin-bottom: 10px;
+}
+
+.beforeFoot > h2,
+footer > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.beforeFoot > p,
+footer > p,
+article > p {
+  text-align: center;
+  margin-top: 0;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 10px;
+  width: 100%;
+  height: 60%;
+}
+
+.image-container .i1 {
+  /* grid-row: span 3; */
+  grid-column: 1 / -1;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  height: 80vh;
+  color: white;
+  padding-block: 3rem;
+  padding-inline: 7%;
+}
+
+footer > nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  width: 48vw;
+  margin-inline: auto;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+footer > nav li {
+  width: 13rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgb(76, 76, 76);
+}
+
+footer > nav p {
+  text-align: center;
+  color: orange;
+}
+
+footer .fa-square-caret-up {
+  color: orange;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  left: 90%;
+}
+
+footer > hr {
+  color: orange;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
