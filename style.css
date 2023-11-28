@@ -213,27 +213,27 @@ section h4 {
 
 section h2 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 section > p {
-  text-align: center;
+  text-align: justify;
   width: 30%;
   margin-inline: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 section > .box {
   display: flex;
   justify-content: space-between;
-  height: 13rem;
+  height: 10rem;
 }
 
-section > .box > div {
-  height: 100%;
-  width: 22%;
+section > .box .boxes {
+  height: 10rem;
+  width: 20vw;
   background-color: rgb(51, 51, 51);
   display: flex;
   align-items: center;
@@ -256,7 +256,7 @@ section .fa-chevron-right {
   font-size: 2rem;
 }
 
-div .page2 p {
+section div .page2 p {
   font-size: 2rem;
 }
 
@@ -266,7 +266,7 @@ section > .last {
   padding-left: 5rem;
 }
 
-section > .last > .under {
+section > .box .under {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -274,10 +274,10 @@ section > .last > .under {
   margin-bottom: 00;
 }
 
-.last > .under p:first-child {
+section .under p:first-child {
   color: rgb(255, 170, 0);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
 }
 
