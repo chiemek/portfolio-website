@@ -195,7 +195,7 @@ main .firstpage2 {
   right: 5rem;
 }
 
-section {
+#section {
   height: 100vh;
   background-color: rgb(76, 76, 76);
   color: white;
@@ -203,7 +203,7 @@ section {
   padding-inline: 7%;
 }
 
-section h4 {
+#section h4 {
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
@@ -211,27 +211,27 @@ section h4 {
   margin-bottom: 0;
 }
 
-section h2 {
+#section h2 {
   text-align: center;
   margin-top: 0.5rem;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-section > p {
+#section > p {
   text-align: justify;
   width: 30%;
   margin-inline: auto;
   margin-bottom: 1rem;
 }
 
-section > .box {
+#section > .box {
   display: flex;
   justify-content: space-between;
   height: 10rem;
 }
 
-section > .box .boxes {
+#section > .box .boxes {
   height: 10rem;
   width: 20vw;
   background-color: rgb(51, 51, 51);
@@ -240,33 +240,33 @@ section > .box .boxes {
   justify-content: center;
 }
 
-section > .box .fa-pen-nib,
+#section > .box .fa-pen-nib,
 .fa-magnifying-glass,
 .fa-chart-simple {
   font-size: 2rem;
   margin-left: 45%;
 }
 
-section .fa-chevron-left {
+#section .fa-chevron-left {
   margin-left: 5rem;
   font-size: 2rem;
 }
 
-section .fa-chevron-right {
+#section .fa-chevron-right {
   font-size: 2rem;
 }
 
-section div .page2 p {
+#section div .page2 p {
   font-size: 2rem;
 }
 
-section > .last {
+#section > .last {
   display: flex;
   column-gap: 20%;
   padding-left: 5rem;
 }
 
-section > .box .under {
+#section > .box .under {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -275,7 +275,7 @@ section > .box .under {
   margin-bottom: 00;
 }
 
-section .under p:first-child {
+#section .under p:first-child {
   color: rgb(255, 170, 0);
   font-weight: 500;
   font-size: 1.5rem;
